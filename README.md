@@ -4,13 +4,17 @@ Este é um projeto de uma conta bancária criado com o objetivo de simular as pr
 <h2>Funcionalidades</h2>
 A classe Conta possui as seguintes funcionalidades:
 
+
 - Abrir conta: é possível abrir uma conta corrente ou poupança, definindo um saldo inicial de 50 ou 150 reais, respectivamente.
 Fechar conta: é possível fechar uma conta somente se não houver débitos ou créditos na conta.
 - Depositar: é possível depositar um valor positivo na conta, aumentando o saldo.
 - Sacar: é possível sacar um valor da conta, desde que o saldo seja suficiente e o valor não ultrapasse o limite de saque.
 - Pagar mensalidade: é possível pagar a mensalidade da conta, que é de 12 reais para conta corrente e 20 reais para conta poupança.
+
 <h2>Correções realizadas na segunda versão</h2>
-- Corrigida a lógica de abertura de conta, que estava apresentando erro na definição do tipo de conta.
+
+- Corrigida a lógica de abertura de conta, que estava apresentando erro na definição do tipo de conta
+
 - Corrigido o limite de saque, que estava sendo comparado com o saldo ao invés do atributo "saque".
 - Melhorada a lógica de fechamento de conta, adicionando condições que verificam se há débitos ou créditos na conta.
 - Adicionada validação para não permitir depósitos com valores nulos ou negativos.
